@@ -73,7 +73,7 @@ const printQuote = () => {
 
   const randomQuote = getRandomQuote();
 
-  let quotebox = document.querySelector('#quote-box');
+  const quotebox = document.querySelector('#quote-box');
   let displayQuote = '';
 
   displayQuote += `<p class="quote"> ${randomQuote.quote} </p>`;
