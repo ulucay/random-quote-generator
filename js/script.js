@@ -62,7 +62,7 @@ const getRandomQuote = () => {
 //Get a random color for background and button
 const changeColor = () => {
   const randomColor = Math.floor(Math.random() * colors.length);
-  let button = document.querySelector('#loadQuote');
+  const button = document.querySelector('#loadQuote');
   button.style.backgroundColor = colors[randomColor];
   document.body.style.backgroundColor = colors[randomColor]; 
 }
