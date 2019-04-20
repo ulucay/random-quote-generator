@@ -103,7 +103,7 @@ function resetTimer() {
 //Starts the random-quote-generator when the page loods
 printQuote();
 
-//Starts event listener to get new quote when the button is clicked
+//Starts the event listener to get new quote when the button is clicked
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
 
