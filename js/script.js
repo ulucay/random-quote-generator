@@ -97,7 +97,7 @@ let timer = setInterval(printQuote, 10000);
 // Reset the timer when the printQuote function is called
 function resetTimer() {
   clearInterval(timer);
-  timer = setInterval(printQuote, 5000);
+  timer = setInterval(printQuote, 10000);
 }
 
 //Starts the random-quote-generator when the page loods
