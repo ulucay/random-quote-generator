@@ -100,7 +100,7 @@ function resetTimer() {
   timer = setInterval(printQuote, 10000);
 }
 
-//Starts the random-quote-generator when the page loods
+//Starts the random-quote-generator when the page loads
 printQuote();
 
 //Starts the event listener to get new quote when the button is clicked
